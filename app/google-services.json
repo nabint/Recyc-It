@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "409303147180",
+    "firebase_url": "https://recyc-it.firebaseio.com",
+    "project_id": "recyc-it",
+    "storage_bucket": "recyc-it.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409303147180:android:c5a39bf2c594c237",
+        "android_client_info": {
+          "package_name": "com.example.recyc_it"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409303147180-0cm6ol5b1mlkv80bbtnq9fq6frrlbdgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recyc_it",
+            "certificate_hash": "f22d2f47f630c2b19bf2775e58949d9d1ff831b5"
+          }
+        },
+        {
+          "client_id": "409303147180-89ngv2tr9phsig2em68t3em2efiam7hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkIJ_jSLRuGFzvjBtGVCvA30FuUGA3SI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409303147180-89ngv2tr9phsig2em68t3em2efiam7hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

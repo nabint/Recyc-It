@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".Waste_Bar_Chart">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good"
+        android:textSize="40dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/SatisFactory_Level"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Tips To Reduce Wastage Production"
+        android:id="@+id/tipz"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:background="@drawable/rounded_button2"
+        android:padding="20dp"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:rotation="270"
+            android:layout_gravity="center_vertical"
+            android:text="Ratio"
+            android:textSize="10dp"
+            android:layout_weight="0.08"/>
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barchart1"
+            android:layout_width="0dp"
+            android:layout_weight="0.92"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

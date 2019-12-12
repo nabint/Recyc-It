@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Collec_login"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/garbage_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/garbage_collector"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        />
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:hint="Email"
+        android:id="@+id/c_l_email"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:background="#11000000"
+        android:layout_marginBottom="35dp"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/c_l_password"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/c_l_login"
+        android:background="@drawable/rounded_button2"
+        />
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Public_Login"
+    android:orientation="vertical">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/public_logo"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/pub_email"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_action_user"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/pub_password"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/pub_house"
+        android:drawableLeft="@drawable/ic_action_home"
+        android:layout_gravity="center"
+        android:hint="House No."/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:id="@+id/pub_login1"
+        android:background="@drawable/roundedbutton"
+        />
+
+</LinearLayout>
